@@ -14,7 +14,7 @@ const fileUpload = require("express-fileupload");
 const dotenv = require("dotenv");
 
 // Setting up port number
-const PORT = process.env.PORT || 4000;
+const port = process.env.PORT || 4000;
 
 // Loading environment variables from .env file
 dotenv.config();
@@ -57,8 +57,8 @@ app.get("/", (req, res) => {
 });
 
 // Listening to the server
-app.listen(PORT, () => {
-	console.log(`App is listening at ${PORT}`);
+app.listen(port, () => {
+	console.log(`App is listening at ${port}`);
 });
 
 // End of code.
