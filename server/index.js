@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin: 'https://your-vercel-app-url.vercel.app',
+		origin: 'https://study-notion-v2.vercel.app/',
   		methods: ['GET', 'POST', 'PUT', 'DELETE'],
 	})
 );
