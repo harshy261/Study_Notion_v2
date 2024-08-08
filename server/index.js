@@ -27,8 +27,8 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin: "*",
-		credentials: true,
+		origin: 'https://your-vercel-app-url.vercel.app',
+  		methods: ['GET', 'POST', 'PUT', 'DELETE'],
 	})
 );
 app.use(
