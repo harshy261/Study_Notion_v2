@@ -1,3 +1,4 @@
+const dotenv = require("dotenv");
 const BASE_URL = process.env.BASE_URL;
 
 // AUTH ENDPOINTS
