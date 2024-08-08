@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      {
+        "source": "/api/(.*)",
+        "destination": "https://study-notion-v2.onrender.com"
+      }
+    ]
+  }
